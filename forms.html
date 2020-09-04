@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="contact.html">CONTACT</a>
+    <!--Forms-->
+    <h1>Registration Form</h1>
+    <form action="Submit.html">
+        <fieldset>
+            <legend>Personal Details</legend>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="fname" placeholder="Yaaba">
+
+
+        <label for="lastname"> Last Name</label>
+        <input type="lastname" id="lastname" name="lname" placeholder=Basgah><br>
+
+        <p>Gender</p>
+        <input type="radio" id="Male" name="Gender">
+        <lable for="male">Male</lable><br>
+        <input type="radio" id="female" name="Gender">
+        <lable for="female">Female</lable><br>
+    </fieldset>
+    <fieldset>
+        <legend>Course Information</legend>
+        <p>Courses</p>
+        <input type="checkbox" id="html" name="html">
+        <lable for="html">HTML5</lable><br>
+        <input type="checkbox" id="css" name="css">
+        <lable for="css">CSS3</lable><br>
+        <lable for="interest">Why are you interested in this course?</lable><br>
+        <textarea id="interest"></textarea><br>
+        <label for="location">Where will you want to take this course?</label><br>
+        <select>
+            <option value="Online">Online</option>
+            <option value="Accra">Accra, Ghana</option>
+            <option value="Legos">Ikeja, Legos</option>
+            <option value="Gbawe">Amanfro, Accra</option>
+            <option value="Kaneshie">Mataheko, Accra</option>
+            <option value="North Kaneshie">De-Mode,Accra</option>
+            <option value="Asamankese">James Town, Asamankese</option>
+        </select>
+    </fieldset>
+
+        <button type="submit">submit</button>
+    </form>
+    
+</body>
+</html>
